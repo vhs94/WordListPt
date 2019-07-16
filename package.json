@@ -1,0 +1,19 @@
+{
+  "name": "WordListPtBr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p . && npm run copyText",
+    "copyText": "copyfiles src/**/*.txt dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.6.4"
+  },
+  "dependencies": {
+    "copyfiles": "^2.1.1"
+  }
+}
